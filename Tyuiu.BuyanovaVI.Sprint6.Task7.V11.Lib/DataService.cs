@@ -6,7 +6,7 @@ namespace Tyuiu.BuyanovaVI.Sprint6.Task7.V11.Lib
     {
         public int[,] GetMatrix(int[,] matrix)
         {
-            string[] mass = File.ReadAllLines(matrix);
+            string[] mass = File.ReadAllLines(path);
             int s = 10;
             for (int i = 0; i < s; i++)
             {

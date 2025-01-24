@@ -25,6 +25,21 @@
     <ProjectReference Include="..\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib" />
     <ProjectReference Include="..\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib" />
     <ProjectReference Include="..\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib" />
+    <ProjectReference Include="..\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib" />
+    <ProjectReference Include="..\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib" />
+    <ProjectReference Include="..\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib.csproj" />
+    <ProjectReference Include="\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib">
+      <T></T>
+    </ProjectReference>
+    <ProjectReference Include=".csproj">
+      <T></T>
+    </ProjectReference>
+    <ProjectReference Include="\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib">
+      <T></T>
+    </ProjectReference>
+    <ProjectReference Include=".csproj">
+      <T></T>
+    </ProjectReference>
     <ProjectReference Include="\Tyuiu.BuyanovaVI.Sprint6.Task3.V13.Lib">
       <T></T>
     </ProjectReference>
