@@ -6,28 +6,36 @@ namespace Tyuiu.BuynovaVI.Sprint6.Task7.V11.Lib
     {
         public int[,] GetMatrix(int[,] matrix)
         {
-            string[] fileData = File.ReadAllText(path).Replace('\n', '\r').Split('\r', StringSplitOptions.RemoveEmptyEntries);
-
-            int rows = fileData.Length;
-            int columns = fileData[0].Split(';').Length;
-
-            int[,] matrix = new int[rows, columns];
-
-            for (int i = 0; i < rows; i++)
+            string[] mass = File.ReadAllLines(path);
+            int s = 10;
+            for (int i = 0; i < s; i++)
             {
-                string[] line = fileData[i].Split(";");
-                for (int j = 0; j < columns; j++)
+                mass[i] = mass[i].Replace(";", " ");
+            }
+
+            int[,] matrix = new int[s, s];
+            for (int i = 0; i < s; i++)
+            {
+                int[] row = mass[i].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(Int32.Parse).ToArray();
+                for (int j = 0; j < s; j++)
                 {
-                    matrix[i, j] = Convert.ToInt32(line[j]);
+                    matrix[i, j] = row[j];
                 }
             }
 
-            int xRow = 4; // 5-я строка (индекс 4)
-            for (int j = 0; j < columns; j++)
+            int[,] res = new int[s, s];
+            int rows = matrix.GetUpperBound(0) + 1;
+            int columns = matrix.Length / rows;
+            int xRows = 4;
+
+            for (int r = xRows; r <= xRows; r++)
             {
-                if (matrix[xRow, j] < 0)
+                for (int c = 0; c < columns; c++)
                 {
-                    matrix[xRow, j] = 9;
+                    if (matrix[r, c] < 0)
+                    {
+                        matrix[r, c] = 9;
+                    }
                 }
             }
             return matrix;

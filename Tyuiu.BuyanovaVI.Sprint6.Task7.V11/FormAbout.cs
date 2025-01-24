@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tyuiu.BuynovaVI.Sprint6.Task7.V11
+namespace Tyuiu.BuyanovaVI.Sprint6.Task7.V11
 {
     public partial class FormAbout : Form
     {
