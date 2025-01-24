@@ -77,7 +77,7 @@
             buttonAbout.TabIndex = 2;
             toolTipButtons.SetToolTip(buttonAbout, "Сведения о программе");
             buttonAbout.UseVisualStyleBackColor = false;
-
+            buttonAbout.Click += buttonAbout_Click;
             // 
             // buttonDone
             // 
@@ -91,7 +91,7 @@
             buttonDone.TabIndex = 1;
             toolTipButtons.SetToolTip(buttonDone, "Производит поиск слов в которых встречается символ \"r\"\r\nи выводит в результирующею строку\r\n\r\n");
             buttonDone.UseVisualStyleBackColor = false;
-  
+            buttonDone.Click += buttonDone_Click;
             // 
             // buttonOpen
             // 
@@ -104,7 +104,7 @@
             buttonOpen.TabIndex = 0;
             toolTipButtons.SetToolTip(buttonOpen, "Открыть файл\r\nВыберите нужный файл для обработки\r\n");
             buttonOpen.UseVisualStyleBackColor = false;
-
+            buttonOpen.Click += buttonOpen_Click;
             // 
             // panelButtons
             // 
@@ -155,7 +155,7 @@
             textBoxTask.Size = new Size(876, 124);
             textBoxTask.TabIndex = 0;
             textBoxTask.Text = "Дан файл InPutFileTask6V3.txt который может находится в любом месте на диске. Загрузить файл в textBoxIn через openFileDialog. Вывести слова в которых встречается r в результирующею строку";
-
+            textBoxTask.TextChanged += textBoxTask_TextChanged;
             // 
             // panelInput
             // 
@@ -252,7 +252,7 @@
             MinimumSize = new Size(900, 676);
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Спринт 6 | Таск 6 | Вариант 3 | Буянова В.И.";
+            Text = "Спринт 6 | Таск 6 | Вариант 3 | Буянова В.В.";
             panelButtons.ResumeLayout(false);
             panelTask.ResumeLayout(false);
             groupBoxTask.ResumeLayout(false);

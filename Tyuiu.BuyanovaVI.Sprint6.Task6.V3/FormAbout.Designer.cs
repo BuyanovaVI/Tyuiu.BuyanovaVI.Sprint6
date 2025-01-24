@@ -66,7 +66,7 @@
             buttonClose.TabIndex = 2;
             buttonClose.Text = "Ok\r\n";
             buttonClose.UseVisualStyleBackColor = false;
-
+            buttonClose.Click += buttonClose_Click;
             // 
             // textBox1
             // 
