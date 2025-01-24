@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.BuyanovaVI.Sprint6.Task7.V11
+﻿namespace Tyuiu.BuyanovaVI.Spriny6.Task7.V11
 {
     partial class FormAbout
     {

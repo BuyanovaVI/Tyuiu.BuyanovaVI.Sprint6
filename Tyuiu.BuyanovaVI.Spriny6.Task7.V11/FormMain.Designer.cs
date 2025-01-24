@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.BuyanovaVI.Sprint6.Task7.V11
+﻿namespace Tyuiu.BuyanovaVI.Spriny6.Task7.V11
 {
     partial class FormMain
     {
@@ -212,7 +212,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "FormMain";
-            Text = "Спринт 6 | Таск 7 | Вариант 11 | Буянова В. И.";
+            Text = "Спринт 6 | Таск 7 | Вариант 11 | Ахтариева Н. Р.";
             Load += FormMain_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
