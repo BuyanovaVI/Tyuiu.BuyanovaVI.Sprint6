@@ -1,4 +1,4 @@
-namespace Tyuiu.BuyanovaVI.Spriny6.Task7.V11
+namespace Tyuiu.BuyanovaVI.Sprint6.Task7.V11
 {
     internal static class Program
     {
@@ -11,7 +11,7 @@ namespace Tyuiu.BuyanovaVI.Spriny6.Task7.V11
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FormMain());
+            Application.Run(new FormAbout());
         }
     }
 }

@@ -1,12 +1,12 @@
 ﻿using System.IO;
 using tyuiu.cources.programming.interfaces.Sprint6;
-namespace Tyuiu.BuyanovaVI.Spriny6.Task7.V11.Lib
+namespace Tyuiu.BuyanovaVI.Sprint6.Task7.V11.Lib
 {
     public class DataService : ISprint6Task7V11
     {
         public int[,] GetMatrix(int[,] matrix)
         {
-            v string[] mass = File.ReadAllLines(path);
+            string[] mass = File.ReadAllLines(path);
             int s = 10;
             for (int i = 0; i < s; i++)
             {

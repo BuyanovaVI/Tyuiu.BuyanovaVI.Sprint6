@@ -1,5 +1,5 @@
-using Tyuiu.BuyanovaVI.Spriny6.Task7.V11,Lib;
-namespace Tyuiu.BuyanovaVI.Spriny6.Task7.V11.Test
+using Tyuiu.BuyanovaVI.Sprint6.Task7.V11.Lib;
+namespace Tyuiu.BuyanovaVI.Sprint6.Task7.V11.Test
 {
     [TestClass]
     public class DataServiceTest
